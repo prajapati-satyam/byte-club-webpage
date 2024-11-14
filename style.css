@@ -25,7 +25,7 @@ h2 {
 .card {
     text-align: center;
     border: 2px solid rgb(160, 156, 156);
-    margin: 10px;
+    margin: 20px;
 }
 .card:hover{
     cursor: pointer;
@@ -41,7 +41,7 @@ h2 {
 .card img:hover {
     border-radius: 10%;
 }
-@media (max-width: 1676px) {
+@media (max-width: 780px) {
     .container {
         display: flex;
         flex-direction: column;
