@@ -12,7 +12,7 @@ body {
     justify-content: center;
 }
 .container {
-    width: fit-content;
+    width: 25vw;
     background-color: rgb(222, 237, 243);
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -26,7 +26,9 @@ h2 {
     text-align: center;
     border: 2px solid rgb(160, 156, 156);
     margin: 10px;
-    word-wrap: break-word;
+}
+.card h2 {
+    font-size: xx-large;
 }
 .card:hover{
     cursor: pointer;
