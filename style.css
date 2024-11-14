@@ -1,0 +1,54 @@
+.title {
+    font-size: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: blueviolet;
+}
+body {
+    background-color: rgb(202, 219, 235);
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 25vw;
+    background-color: rgb(222, 237, 243);
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 10px;
+
+}
+h2 {
+    font-family: monospace;
+}
+.card {
+    text-align: center;
+    border: 2px solid rgb(160, 156, 156);
+    margin: 10px;
+}
+.card:hover{
+    cursor: pointer;
+}
+#element {
+    color: red;
+    word-wrap: break-word;
+}
+.card img {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.card img:hover {
+    border-radius: 10%;
+}
+@media (max-width: 1676px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        width: fit-content;
+    }
+}
